@@ -1,21 +1,44 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title> student data </title>
-    </head>
-    <body>  
-  <label for="name">  NAME     :  </label>
-  <input type="text" name="" id="name">
-<br>
-<br>
+<head>
+    <title>Student Grade Calculator</title>
+    <style>
+      p{
+        color: aqua;
+        text-align: center;
+        text-shadow: 0pc,orangered;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        ;
+      }
+    </style>
+</head>
+<body>
+    <h2>Student Data</h2>
 
-  <label for="rno"> ROLLNO:</label>
-  <input type="number" name="" id="rno">
-<br>
-<button type="submit" id="submitButton">ok</button>
-<br>
-<div id="output"></div>
+    <label for="name">Name:</label>
+    <input type="text" id="nameInput"><br><br>
 
-<script src="eg.js"></script>
+    <label for="rno">Roll Number:</label>
+    <input type="number" id="rollNoInput"><br><br>
 
-    </body>
+    <label for="maths">Maths:</label>
+    <input type="number" id="mathsInput"><br><br>
+
+    <label for="science">Science:</label>
+    <input type="number" id="scienceInput"><br><br>
+
+    <label for="social">Social:</label>
+    <input type="number" id="socialInput"><br><br>
+
+    <label for="english">English:</label>
+    <input type="number" id="englishInput"><br><br>
+
+    <button id="calculateButton">Calculate Grade</button><br><br>
+
+    <div >
+      <p id="output"></p>
+    </div>
+
+    <script src="bas.js"></script>
+</body>
 </html>
