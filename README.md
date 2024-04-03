@@ -1,1 +1,2 @@
-"# typescript" 
+full stack development
+
