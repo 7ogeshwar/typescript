@@ -1,5 +1,12 @@
 {
   "devDependencies": {
+    "@types/node": "^20.12.6",
+    "@types/readline-sync": "^1.4.8",
     "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "fs": "^0.0.1-security",
+    "prompt-sync": "^4.2.0"
   }
 }

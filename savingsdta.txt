@@ -1,0 +1,24 @@
+NAME : ${name}
+ INCOME: ${income.toFixed(2)}
+ NECESSITIES: ${savinginfo.necessities.toFixed(2)}
+Wants: ${savinginfo.wants.toFixed(2)}
+Savings: ${savinginfo.savings.toFixed(2)}
+Total Investment: ${result.totalInvestment.toFixed(2)}
+Future Value: ${result.futureValue.toFixed(2)}
+
+NAME : logesh
+INCOME: 540000.00
+NECESSITIES: 270000.00
+Wants: 162000.00
+Savings: 108000.00
+Total Investment: 6480000.00
+Future Value: 8432897.16
+
+NAME : null
+INCOME: NaN
+NECESSITIES: NaN
+Wants: NaN
+Savings: NaN
+Total Investment: 0.00
+Future Value: 0.00
+
